@@ -5,7 +5,7 @@ public class TongMaTran {
     static int T, N, tongHang, tongCot, tongDc, tongMax;
     static int[][] a;
     public static void main(String[] args) throws Exception {
-        System.setIn(new FileInputStream("D:\\OneDrive - actvn.edu.vn\\DOCUMENTS\\SIT_Java\\VS Code\\Lesson3\\BaiTap\\lib\\input1.txt"));
+        System.setIn(new FileInputStream("/workspaces/STP/Lesson3/BaiTap/lib/input1.txt"));
 
         Scanner sc = new Scanner(System.in);
         

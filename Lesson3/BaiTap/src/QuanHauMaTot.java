@@ -27,7 +27,7 @@ public class QuanHauMaTot {
 
     public static void main(String[] args) throws Exception {
         System.setIn(new FileInputStream(
-                "D:\\OneDrive - actvn.edu.vn\\DOCUMENTS\\SIT_Java\\VS Code\\Lesson3\\BaiTap\\lib\\input9.txt"));
+                "/workspaces/STP/Lesson3/BaiTap/lib/input9.txt"));
 
         Scanner sc = new Scanner(System.in);
 
