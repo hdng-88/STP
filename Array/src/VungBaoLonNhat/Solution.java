@@ -4,7 +4,10 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * Solution
+ */
+public class Solution {
 
     static int T, H, W, M, N, ans, tmp;
     static int [][] a;
@@ -20,34 +23,37 @@ public class Main {
             N = sc.nextInt();
 
             a = new int[M][N];
-
+            ans = 0;
             for (int i = 0; i < M; i++) {
                 for (int j = 0; j < N; j++) {
                     a[i][j] = sc.nextInt();
                 }                
             }
 
-            for (int i = 0; i < M-H; i++) {
-                for (int j = 0; j < N-W; j++) {
+            for (int i = 0; i <= M-H; i++) {
+                for (int j = 0; j <= N-W; j++) {
                     tmp = 0;
-                    int r = 1;
-                    int c = 1;
 
-                    while (r != H) {
-                        tmp += a[r][j] + a[r][j+W-1];
-                        r++;
+                    for (int k = i; k < i+H ; k++) {
+                        if(a[k][j] % 2 == 0)
+                            tmp += a[k][j];
+                        if(a[k][j+W-1] % 2 == 0)    
+                            tmp += a[k][j+W-1];
                     }
 
-                    while (c != W) {
-                        tmp += a[i][c] + a[i][c+H-1];
-                        c++;
+                    for (int k = j+1; k < j+W-1 ; k++) {
+                        if(a[i][k] % 2 == 0)
+                            tmp += a[i][k];
+                        if(a[i+H-1][k] % 2 == 0)    
+                            tmp += a[i+H-1][k];
                     }
 
                     if(tmp > ans){
                         ans = tmp;
                     }
                 }
-            }            
+            } 
+            System.out.println("#" + test_case + " " + ans);
         }
     }
 }
