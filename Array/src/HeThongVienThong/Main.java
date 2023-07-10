@@ -8,10 +8,9 @@ import java.util.Scanner;
  * Main
  */
 public class Main {
-    static int T, M, N;
-    static boolean check;
-    static int[] height, count, ans;
-    static String[] a;
+    static int T, M, N, ans;
+    static String a;
+    static String[][] s;
 
     static int[] rs = { 0, 0, 1, -1 };
     static int[] cs = { 1, -1, 0, 0 };
@@ -29,32 +28,80 @@ public class Main {
         for (int tc = 1; tc <= T; tc++) {
             M = sc.nextInt();
             N = sc.nextInt();
+            sc.nextLine();
 
-            a = new String[M];
+            s = new String[M][N];
 
             for (int i = 0; i < M; i++) {
-                a[i] = sc.nextLine();
-                System.out.println(a[i]);
+                a = sc.nextLine();
+                s[i] = a.split("");
             }
 
+            ans = 0;
             for (int i = 0; i < M; i++) {
                 for (int j = 0; j < N; j++) {
-                    if (a[i].charAt(j) == 'A') {
+                    if (s[i][j].equals("A")) {
                         int r = i;
                         int c = j;
 
-                        for (int k = 0; k < 8; k++) {
+                        for (int k = 0; k < 4; k++) {
                             int cr = r + rs[k];
                             int cc = c + cs[k];
 
-                            if (cr >= 0 && cr < M && cc >= 0 && cc < N && a[cr].charAt(cc) == 'H') {
-                                // a[cr].charAt(cc) ='X';
+                            if (cr >= 0 && cr < M && cc >= 0 && cc < N && s[cr][cc].equals("H")) {
+                                s[cr][cc] = "X";
+                            }
+                        }
+                    }
+
+                    else if (s[i][j].equals("B")) {
+                        int r = i;
+                        int c = j;
+
+                        for (int k = 0; k < 4; k++) {
+                            int count = 2;
+                            int cr = r;
+                            int cc = c;
+                            while (count-- > 0) {
+                                cr += rs[k];
+                                cc += cs[k];
+
+                                if (cr >= 0 && cr < M && cc >= 0 && cc < N && s[cr][cc].equals("H")) {
+                                    s[cr][cc] = "X";
+                                }
+                            }
+                        }
+                    }
+
+                    else if (s[i][j].equals("C")) {
+                        int r = i;
+                        int c = j;
+
+                        for (int k = 0; k < 4; k++) {
+                            int count = 3;
+                            int cr = r;
+                            int cc = c;
+                            while (count-- > 0) {
+                                cr += rs[k];
+                                cc += cs[k];
+
+                                if (cr >= 0 && cr < M && cc >= 0 && cc < N && s[cr][cc].equals("H")) {
+                                    s[cr][cc] = "X";
+                                }
                             }
                         }
                     }
                 }
             }
 
+            for (int i = 0; i < M; i++) {
+                for (int j = 0; j < N; j++) {
+                    if(s[i][j].equals("H")){
+                        ans++;
+                    }
+                }
+            }
+            System.out.println("#" + tc + " " + ans);
         }
     }
 }
