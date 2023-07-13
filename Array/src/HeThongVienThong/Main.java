@@ -96,7 +96,14 @@ public class Main {
 
             for (int i = 0; i < M; i++) {
                 for (int j = 0; j < N; j++) {
-                    if(s[i][j].equals("H")){
+                    System.out.print(s[i][j] + " ");
+                }
+                System.out.println();
+            }
+
+            for (int i = 0; i < M; i++) {
+                for (int j = 0; j < N; j++) {
+                    if (s[i][j].equals("H")) {
                         ans++;
                     }
                 }

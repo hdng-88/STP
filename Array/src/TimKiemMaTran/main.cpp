@@ -40,12 +40,21 @@ int main()
 
                 int d = tmp - K > 0 ? tmp - K : K - tmp;
 
-                if (d < minK || (d == minK && tmp < tmp2))
+                if (d < minK || d == minK)
                 {
-                    minK = d;
-                    x = i;
-                    y = j;
-                    tmp2 = tmp;
+                    if (d == minK && tmp < tmp2)
+                    {
+                        minK = d;
+                        x = i;
+                        y = j;
+                        tmp2 = tmp;
+                    }
+                    else
+                    {
+                        minK = d;
+                        x = i;
+                        y = j;
+                    }
                 }
             }
         }

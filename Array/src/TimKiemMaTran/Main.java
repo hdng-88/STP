@@ -34,11 +34,12 @@ public class Main {
                 }
             }
 
-            minK = K;
+            minK = 10000000;
+            tmp2 = 10000000;
             for (int i = 0; i <= N - M; i++) {
                 for (int j = 0; j <= N - M; j++) {
                     tmp = 0;
-                    tmp2 = 10000000;
+
                     for (int k = 0; k < M; k++) {
                         int dem = 0;
                         while (dem < M) {
@@ -49,6 +50,8 @@ public class Main {
 
                     int d = tmp - K > 0 ? tmp - K : K - tmp;
 
+                    System.out.print(tmp + " ");
+
                     if (d < minK || (d == minK && tmp < tmp2)) {
                         minK = d;
                         x = i;
@@ -56,6 +59,7 @@ public class Main {
                         tmp2 = tmp;
                     }
                 }
+                System.out.println();
             }
             System.out.println("#" + tc + " " + x + " " + y);
         }
