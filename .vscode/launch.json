@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "KiemTraSudoku.Main",
+            "projectName": "STP_aff158ed"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "HeThongPhanTichRemCua.Main",
+            "projectName": "STP_aff158ed"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "SoDep.Main",
             "projectName": "STP_aff158ed"
         },
