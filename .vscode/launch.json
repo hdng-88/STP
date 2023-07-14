@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "TimKiemString.Main",
+            "projectName": "STP_aff158ed"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "KiemTraSudoku.Main",
             "projectName": "STP_aff158ed"
         },
