@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "AntiBlotSystem_Easy.Main",
+            "projectName": "STP_aff158ed"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ToAndFro.Main",
+            "projectName": "STP_aff158ed"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ChuoiConDoiXungDaiNhat.Main",
+            "projectName": "STP_aff158ed"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "DemChuoiConDoiXung.Main",
+            "projectName": "STP_aff158ed"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "App",
