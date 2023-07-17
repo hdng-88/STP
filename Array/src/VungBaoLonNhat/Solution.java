@@ -23,7 +23,8 @@ public class Solution {
             N = sc.nextInt();
 
             a = new int[M][N];
-            ans = 0;
+			ans = 0;
+			
             for (int i = 0; i < M; i++) {
                 for (int j = 0; j < N; j++) {
                     a[i][j] = sc.nextInt();
@@ -52,7 +53,7 @@ public class Solution {
                         ans = tmp;
                     }
                 }
-            } 
+            }
             System.out.println("#" + test_case + " " + ans);
         }
     }

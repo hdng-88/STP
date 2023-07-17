@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "NamCham.Main",
+            "projectName": "STP_aff158ed"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "TroChoi2048.Main",
+            "projectName": "STP_aff158ed"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "AntiBlotSystem_Easy.Main",
             "projectName": "STP_aff158ed"
         },
