@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "QuanMaDuocChon.Main",
+            "projectName": "STP_d4d904f"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "VuotChuongNgaiVat.Main",
             "projectName": "STP_aff158ed"
         },
