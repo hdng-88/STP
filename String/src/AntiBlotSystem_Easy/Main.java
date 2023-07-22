@@ -14,7 +14,7 @@ public class Main {
     static String[] element;
     public static void main(String[] args) {
         try {
-            System.setIn(new FileInputStream("/workspaces/STP/String/src/AntiBlotSystem_Easy/input.txt"));
+            System.setIn(new FileInputStream("STP/String/src/AntiBlotSystem_Easy/input.txt"));
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
