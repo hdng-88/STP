@@ -12,7 +12,7 @@ public class Main {
     static int[] height, count, ans;
     public static void main(String[] args) {
         try {
-            System.setIn(new FileInputStream("/workspaces/STP/Array/src/QueueRookie_Easy/input.txt"));
+            System.setIn(new FileInputStream("Array/src/QueueRookie_Easy/input.txt"));
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

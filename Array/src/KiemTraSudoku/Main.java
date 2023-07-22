@@ -13,7 +13,7 @@ public class Main {
     static String[] s;
     public static void main(String[] args) {
         try {
-            System.setIn(new FileInputStream("/workspaces/STP/Array/src/KiemTraSudoku/input.txt"));
+            System.setIn(new FileInputStream("Array/src/KiemTraSudoku/input.txt"));
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

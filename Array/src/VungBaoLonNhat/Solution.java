@@ -12,7 +12,7 @@ public class Solution {
     static int T, H, W, M, N, ans, tmp;
     static int [][] a;
     public static void main(String[] args) throws FileNotFoundException {
-        System.setIn(new FileInputStream("/workspaces/STP/Array/src/VungBaoLonNhat/input.txt"));
+        System.setIn(new FileInputStream("Array/src/VungBaoLonNhat/input.txt"));
         Scanner sc = new Scanner(System.in);
 
         T = sc.nextInt();

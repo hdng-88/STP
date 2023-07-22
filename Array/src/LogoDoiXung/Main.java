@@ -14,7 +14,7 @@ public class Main {
     static int[][] a, ssX1, ssX2, ssY1, ssY2;
 
     public static void main(String[] args) throws FileNotFoundException {
-        System.setIn(new FileInputStream("D:\\Dung\\Code STP\\test\\STP\\Array\\Array\\src\\LogoDoiXung\\input.txt"));
+        System.setIn(new FileInputStream("Array\\src\\LogoDoiXung\\input.txt"));
 
         Scanner sc = new Scanner(System.in);
 

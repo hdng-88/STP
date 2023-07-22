@@ -13,7 +13,7 @@ public class Main {
     static boolean check;
     static int[] a, count;
     public static void main(String[] args) throws FileNotFoundException {
-        System.setIn(new FileInputStream("/workspaces/STP/Array/src/FirstDuplicate/input.txt"));
+        System.setIn(new FileInputStream("Array/src/FirstDuplicate/input.txt"));
         Scanner sc = new Scanner(System.in);
 
         T = sc.nextInt();

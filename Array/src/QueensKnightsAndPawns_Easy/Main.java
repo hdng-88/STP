@@ -28,7 +28,7 @@ public class Main {
     static int[] csK = { -2, 2, -2, 2, -1, 1, 1, -1 };
 
     public static void main(String[] args) throws FileNotFoundException {
-        System.setIn(new FileInputStream("/workspaces/STP/Array/src/QueensKnightsAndPawns_Easy/input.txt"));
+        System.setIn(new FileInputStream("Array/src/QueensKnightsAndPawns_Easy/input.txt"));
         Scanner sc = new Scanner(System.in);
 
         n = sc.nextInt();

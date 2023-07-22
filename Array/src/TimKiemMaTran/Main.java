@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            System.setIn(new FileInputStream("/workspaces/STP/Array/src/TimKiemMaTran/input.txt"));
+            System.setIn(new FileInputStream("Array/src/TimKiemMaTran/input.txt"));
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

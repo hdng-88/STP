@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "VungBaoLonNhat.Solution",
+            "projectName": "STP_d4d904f"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "LogoDoiXung.Main",
+            "projectName": "STP_d4d904f"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "HeThongVienThong.Main",
+            "projectName": "STP_d4d904f"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "QuanMaDuocChon.Main",
