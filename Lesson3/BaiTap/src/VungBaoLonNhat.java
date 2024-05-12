@@ -6,8 +6,7 @@ public class VungBaoLonNhat {
     static int[][] a;
 
     public static void main(String[] args) throws Exception {
-        System.setIn(new FileInputStream(
-                "/workspaces/STP/Lesson3/BaiTap/lib/input10.txt"));
+        System.setIn(new FileInputStream("Lesson3/BaiTap/lib/input10.txt"));
 
         Scanner sc = new Scanner(System.in);
 

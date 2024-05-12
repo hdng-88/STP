@@ -1,5 +1,4 @@
 import java.io.FileInputStream;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class LogoDoiXung {
@@ -10,7 +9,7 @@ public class LogoDoiXung {
 
     public static void main(String[] args) throws Exception {
         System.setIn(new FileInputStream(
-                "/workspaces/STP/Lesson3/BaiTap/lib/input4.txt"));
+                "Lesson3\\BaiTap\\lib\\input4.txt"));
 
         Scanner sc = new Scanner(System.in);
 

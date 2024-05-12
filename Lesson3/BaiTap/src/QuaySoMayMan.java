@@ -9,7 +9,7 @@ public class QuaySoMayMan {
 
     public static void main(String[] args) throws Exception {
         System.setIn(new FileInputStream(
-                "/workspaces/STP/Lesson3/BaiTap/lib/input7.txt"));
+                "Lesson3/BaiTap/lib/input7.txt"));
 
         Scanner sc = new Scanner(System.in);
 

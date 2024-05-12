@@ -7,7 +7,7 @@ public class PhepNhanMaTran {
 
     public static void main(String[] args) throws Exception {
         System.setIn(new FileInputStream(
-                "/workspaces/STP/Lesson3/BaiTap/lib/input6.txt"));
+                "Lesson3\\BaiTap\\lib\\input6.txt"));
 
         Scanner sc = new Scanner(System.in);
 
