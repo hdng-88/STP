@@ -5,7 +5,7 @@ public class LapLaiLanDau {
     static int T, N, ans;
     static int[] nums;
     public static void main(String[] args) throws Exception {
-        System.setIn(new FileInputStream("D:\\OneDrive - actvn.edu.vn\\DOCUMENTS\\SIT_Java\\VS Code\\Lesson2\\BaiTap\\lib\\input3.txt"));
+        System.setIn(new FileInputStream("Lesson2\\BaiTap\\lib\\input3.txt"));
 
         Scanner sc = new Scanner(System.in);
 

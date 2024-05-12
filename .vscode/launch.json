@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TroChoiDienSo",
+            "request": "launch",
+            "mainClass": "TroChoiDienSo",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "TongMaTran",
+            "request": "launch",
+            "mainClass": "TongMaTran",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "KiemTraSudoku.Main",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "SumMax.Main",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "XayThap.Main",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "LapLaiLanDau",
+            "request": "launch",
+            "mainClass": "LapLaiLanDau",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "DemSoCap",
+            "request": "launch",
+            "mainClass": "DemSoCap",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
             "name": "Solution",
             "request": "launch",
             "mainClass": "VungBaoLonNhat.Solution",
