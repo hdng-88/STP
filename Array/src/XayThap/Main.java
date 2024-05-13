@@ -47,10 +47,10 @@ public class Main {
                     count[i]++;
                 }
             }
-            int idx = 0;
-            for (int i = 1; i < N; i++) {                
-                while(count[i]-- > 0){
-                    ans += a[idx++]*i;
+            int viTriGachNangNhat = 0;
+            for (int soTang = 1; soTang < N; soTang++) {                
+                while(count[soTang]-- > 0){
+                    ans += a[viTriGachNangNhat++]*soTang;
                 }
             }
 

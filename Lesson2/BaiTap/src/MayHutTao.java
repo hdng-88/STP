@@ -8,7 +8,7 @@ public class MayHutTao {
 
     public static void main(String[] args) throws FileNotFoundException {
         System.setIn(new FileInputStream(
-                "D:\\OneDrive - actvn.edu.vn\\DOCUMENTS\\SIT_Java\\VS Code\\Lesson2\\BaiTap\\lib\\input8.txt"));
+                "Lesson2\\BaiTap\\lib\\input8.txt"));
 
         Scanner sc = new Scanner(System.in);
 

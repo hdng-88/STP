@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "QueueRookie_Easy.Solution",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "QueueRookie_Easy.Main",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "MayHutTao",
+            "request": "launch",
+            "mainClass": "MayHutTao",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "ChungKhoan",
+            "request": "launch",
+            "mainClass": "ChungKhoan",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "SumMax2.Main",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "VuotChuongNgaiVat.Main",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "NamCham.Main",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "QuanLyMang",
+            "request": "launch",
+            "mainClass": "QuanLyMang",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
             "name": "QuaySoMayMan",
             "request": "launch",
             "mainClass": "QuaySoMayMan",

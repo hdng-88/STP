@@ -8,7 +8,7 @@ public class ChungKhoan {
 
     public static void main(String[] args) throws Exception {
         System.setIn(new FileInputStream(
-                "D:\\OneDrive - actvn.edu.vn\\DOCUMENTS\\SIT_Java\\VS Code\\Lesson2\\BaiTap\\lib\\input7.txt"));
+                "Lesson2\\BaiTap\\lib\\input7.txt"));
 
         Scanner sc = new Scanner(System.in);
 
