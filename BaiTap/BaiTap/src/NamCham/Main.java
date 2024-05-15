@@ -12,8 +12,8 @@ public class Main {
     static int[] nc;
     static int[][] a, visited;
 
-    static int[] moveR = { -1, 0, 1, 0 };
-    static int[] moveC = { 0, 1, 0, -1 };
+    static int[] moveR = { -1, 0, 1, 0 }; //  1   2    3     4
+    static int[] moveC = { 0, 1, 0, -1 }; // lên phải xuống trái
 
     public static void main(String[] args) {
         try {

@@ -23,8 +23,7 @@ public class QuanMaDuocChon {
     static int[] cs = { -2, 2, -2, 2, -1, 1, 1, -1 };
 
     public static void main(String[] args) throws Exception {
-        System.setIn(new FileInputStream(
-                "Lesson3\\BaiTap\\lib\\input8.txt"));
+        System.setIn(new FileInputStream("Lesson3\\BaiTap\\lib\\input8.txt"));
 
         Scanner sc = new Scanner(System.in);
 

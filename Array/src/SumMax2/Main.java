@@ -51,6 +51,11 @@ public class Main {
             // 2 duong cheo
             sumOfDiagonal();
 
+            for (int i = 0; i < valueSum.length; i++) {
+                if(maxAns < valueSum[i]){
+                    maxAns = valueSum[i];
+                }
+            }
             System.out.println(maxAns);
         }            
     }
@@ -61,18 +66,24 @@ public class Main {
             sumCheoChinh += a[i][i];
         }
 
-        if(maxAns < sumCheoChinh){
-            maxAns = sumCheoChinh;
-        }
+        valueSum[idxSum] = sumCheoChinh;
+        idxSum++;
+
+        // if(maxAns < sumCheoChinh){
+        //     maxAns = sumCheoChinh;
+        // }
 
         int sumCheoPhu = 0;
         for (int i = 0; i < N; i++) {
             sumCheoPhu += a[i][N-1-i];
         }
 
-        if(maxAns < sumCheoPhu){
-            maxAns = sumCheoPhu;
-        }
+        valueSum[idxSum] = sumCheoPhu;
+        idxSum++;
+
+        // if(maxAns < sumCheoPhu){
+        //     maxAns = sumCheoPhu;
+        // }
     }
     private static void sumOfCol(int c) {
         // TODO Auto-generated method stub
@@ -81,9 +92,12 @@ public class Main {
             sumCol += a[r][c];
         }
 
-        if(maxAns < sumCol){
-            maxAns = sumCol;
-        }
+        valueSum[idxSum] = sumCol;
+        idxSum++;
+
+        // if(maxAns < sumCol){
+        //     maxAns = sumCol;
+        // }
     }
     private static void sumOfRow(int r) {
         // TODO Auto-generated method stub
@@ -92,9 +106,14 @@ public class Main {
             sumRow += a[r][c]; 
         }
 
-        if(sumRow > maxAns){
-            maxAns = sumRow;
-        }
+        
+        valueSum[idxSum] = sumRow;
+        idxSum++;
+
+        
+        // if(sumRow > maxAns){
+        //     maxAns = sumRow;
+        // }
     }
     
     

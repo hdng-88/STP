@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            System.setIn(new FileInputStream("/workspaces/STP/BaiTap/BaiTap/src/TroChoi2048/input.txt"));
+            System.setIn(new FileInputStream("BaiTap/BaiTap/src/TroChoi2048/input.txt"));
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

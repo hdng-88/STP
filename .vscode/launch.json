@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PhepNhanMaTran",
+            "request": "launch",
+            "mainClass": "PhepNhanMaTran",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "QuanMaDuocChon",
+            "request": "launch",
+            "mainClass": "QuanMaDuocChon",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "MTXoanOc",
+            "request": "launch",
+            "mainClass": "MTXoanOc",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "TroChoi2048.Main",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
             "name": "Solution",
             "request": "launch",
             "mainClass": "QueueRookie_Easy.Solution",
