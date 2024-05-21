@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "VuotChuongNgaiVat.Solution",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
             "name": "PhepNhanMaTran",
             "request": "launch",
             "mainClass": "PhepNhanMaTran",
