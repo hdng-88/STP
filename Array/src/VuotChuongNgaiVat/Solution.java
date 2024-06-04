@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class Solution {
     static int T, N, cPosX, cPosY, soBuoc, idxMin, idxHigher;
-    static boolean  flag;
     static int[] higherX, higherY;
     static int[][] a;
 
@@ -33,7 +32,7 @@ public class Solution {
 
             soBuoc = 0;
             do {
-                // Mỗi lần lặp lại là cầm khởi tạo lại dòng ở dưới để reset lại giá trị, tránh bị so sánh với giá trị cũ.
+                // Mỗi lần lặp lại là cần khởi tạo lại dòng ở dưới để reset lại giá trị, tránh bị so sánh với giá trị cũ.
                 idxHigher = 0;          
                 higherX = new int[10];  // lưu vị trí hàng có giá trị lớn hơn điểm đang đứng
                 higherY = new int[10];  // lưu vị trí cột có giá trị lớn hơn điểm đang đứng

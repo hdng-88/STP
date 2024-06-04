@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "LadderGame.Main",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "Solution2",
+            "request": "launch",
+            "mainClass": "VuotChuongNgaiVat.Solution2",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
             "name": "Solution",
             "request": "launch",
             "mainClass": "VuotChuongNgaiVat.Solution",
