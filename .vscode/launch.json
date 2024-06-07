@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "OneTwoThree.Main",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "KiemTraMatKhau.Main",
+            "projectName": "STP_cba23023"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "LadderGame.Main",
             "projectName": "STP_cba23023"
         },
